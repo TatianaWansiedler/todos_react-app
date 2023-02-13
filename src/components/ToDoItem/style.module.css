@@ -1,0 +1,31 @@
+.item {
+  width: 250px;
+  min-height: 50px;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  position: relative;
+  background-color: rgba(108, 199, 114, 0.543);
+  color: rgb(82, 82, 82);
+  font-size: 24px;
+  word-wrap: break-word;
+}
+.item_red {
+  background-color: rgba(250, 111, 111, 0.689);
+}
+.del_btn {
+  cursor: pointer;
+  display: none;
+  position: absolute;
+  right: -8px;
+  top: -8px;
+  width: 8%;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  border: none;
+  font-size: 16px;
+  background-color: rgba(175, 175, 175, 0.6);
+}
+.item:hover .del_btn {
+  display: block;
+}

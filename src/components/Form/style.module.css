@@ -1,0 +1,46 @@
+.form {
+  width: 80%;
+  margin: 30px auto;
+  padding: 30px;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.selects {
+  margin-bottom: 15px;
+}
+.selects select {
+  margin-right: 2%;
+  width: 25%;
+  height: 30px;
+  font-size: 16px;
+  color: rgb(77, 77, 77);
+}
+
+.inputs {
+  display: flex;
+  justify-content: space-between;
+}
+textarea[type="text"] {
+  width: 52%;
+  padding: 10px;
+  font-size: 20px;
+  outline: none;
+  resize: none;
+}
+input[type="submit"] {
+  width: 200px;
+  padding: 15px;
+  font-size: 18px;
+  outline: none;
+  border: 1px solid;
+  border-radius: 20px;
+  background-color: rgba(63, 157, 72, 0.875);
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+}
+
+input[type="submit"]:hover {
+  transition: 0.5s;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+}

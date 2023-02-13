@@ -1,0 +1,43 @@
+.card{
+    display: grid;
+    grid-template-columns: 10% 90%;
+    align-items: center;
+    margin: 20px 0;
+    position: relative;
+    border-radius:20px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.day{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-size: 24px;
+    border-radius: 20px 0 0 20px;
+    padding: 20px;
+    background: #4f6175;
+    color: white;
+}
+.todo_box{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color:white;
+    border-radius: 0 20px 20px 0;
+}
+.del_btn{
+    display: none;
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    width: 30px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+    font-size: 20px;
+    background-color: rgba(175, 175, 175, 0.600);
+}
+.card:hover .del_btn{
+    display: block;
+}
